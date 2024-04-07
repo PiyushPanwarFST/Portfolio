@@ -1,0 +1,56 @@
+.container_5 {
+  display: flex;
+}
+.cont1 img {
+  width: 45vw;
+}
+
+.heading {
+  font-size: 45px;
+  margin-left: 41rem;
+  margin-top: 6rem;
+  /* margin-bottom: 5rem; */
+}
+
+.inputBox_1 {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.inputBox_1 input {
+  width: 25vw;
+  height: 7vh;
+  margin-left: 0.3rem;
+  padding-left: 10px;
+  font-size: 1rem;
+  border-radius: 15px;
+}
+
+.inputBox_2 input {
+  width: 25vw;
+  height: 7vh;
+  padding-left: 10px;
+  margin-left: 0.3rem;
+  font-size: 1rem;
+  border-radius: 15px;
+}
+
+textarea {
+  width: 50vw;
+  height: 45vh;
+  margin-top: 0.8rem;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-left: 0.5rem;
+  font-size: 1rem;
+  border-radius: 15px;
+}
+
+button {
+  margin-top: 2.5rem;
+  font-size: 1.3rem;
+  margin-left: 0.5rem;
+  width: 10vw;
+  height: 5vh;
+  margin-bottom: 3rem;
+}

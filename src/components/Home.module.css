@@ -1,0 +1,97 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  background-color: black;
+  z-index: 50;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 450;
+  color: white;
+  margin-left: 4rem;
+  text-decoration: none;
+}
+
+.navbar {
+  gap: 35px;
+  display: flex;
+  font-size: larger;
+  margin-right: 4rem;
+}
+
+.icon i {
+  border-radius: 50%;
+  font-size: 2rem;
+  color: aqua;
+  margin-left: 1.5rem;
+  cursor: pointer;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.container_1 {
+  display: flex;
+  /* padding-top: 3rem; */
+  /* margin-top: 3rem; */
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(48, 47, 47);
+}
+
+.image_container_1 {
+  width: 70rem;
+
+  margin-right: 5rem;
+  height: 45rem;
+}
+
+.image_container_1 img {
+  /* border-radius: 50%; */
+}
+
+.image_container_1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.text_container_1 {
+  margin-top: 8rem;
+  margin-left: 4rem;
+}
+
+.text_container_1 h3,
+h1 {
+  padding: 0.5rem 0;
+}
+
+.text_container_1 h3 {
+  /* margin-top: 3rem; */
+  font-size: 25px;
+}
+
+.text_container_1 h1 {
+  font-size: 45px;
+}
+
+.para_1 {
+  font-size: large;
+
+  margin: 2rem 0;
+}
+
+.btn_1 {
+  border-radius: 25px;
+  font-size: 1rem;
+  width: 180px;
+  height: 50px;
+  color: black;
+  background-color: aqua;
+  margin-top: 2rem;
+}
