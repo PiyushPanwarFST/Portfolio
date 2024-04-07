@@ -20,7 +20,6 @@ const Home = () => {
 
       <section className={styles.container_1} id="home">
         <div className={styles.text_container_1}>
-        
           <h3>Hello It's Me</h3>
           <h1>
             Piyush <span style={{ color: "aqua" }}>Panwar</span>
@@ -58,7 +57,7 @@ const Home = () => {
           <button className={styles.btn_1}>Download cv</button>
         </div>
         <div className={styles.image_container_1}>
-          <img src="/public/images/WhatsApp_Image_2024-02-02_at_22.20.15-removebg-preview.png" />
+          <img src="/public/WhatsApp Image 2024-02-02 at 22.20.15.jpeg" />
         </div>
       </section>
     </>

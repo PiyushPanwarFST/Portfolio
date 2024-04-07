@@ -5,11 +5,14 @@ function Contact() {
   return (
     <>
       <h1 className={styles.heading}>
-        Get In<span style={{ color: "aqua" }}>Touch</span>
+        Get In<span style={{ color: "aqua" }}> Touch</span>
       </h1>
       <section className={styles.container_5} id="contact">
         <div className={styles.cont1}>
-          <img src="https://cdni.iconscout.com/illustration/premium/thumb/customer-care-3483602-2912019.png?f=webp" alt="" />
+          <img
+            src="https://cdni.iconscout.com/illustration/premium/thumb/customer-care-3483602-2912019.png?f=webp"
+            alt=""
+          />
         </div>
         <div className={styles.cont2}>
           <form>

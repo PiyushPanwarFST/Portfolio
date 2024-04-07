@@ -7,7 +7,7 @@
 .outer {
   width: 160px;
   height: 160px;
-  border: 1px solid red;
+  border: 1px solid  white;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -18,7 +18,7 @@
   height: 120px;
   width: 120px;
   border-radius: 50%;
-  border: 1px solid red;
+  border: 1px solid  white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,7 +27,7 @@
 .number {
   font-weight: 600;
   font-size: 30px;
-  color: black;
+    color: white;
 }
 
 circle {
@@ -44,23 +44,37 @@ circle {
   }
 }
 
-.circle {
-  fill: none;
-  stroke: url(#GradientColor);
-  stroke-width: 20px;
-  stroke-dasharray: 450;
-  stroke-dashoffset: 450;
-  animation: anim 1.5s linear forwards;
-}
-@keyframes anim {
-  100% {
-    stroke-dashoffset: 290.5;
-  }
-}
 svg {
   transform: translateY(-160px);
 }
 
-.floor{
-    display: flex;
+.floor {
+  gap: 3rem;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+table {
+  width: 100vw;
+}
+tr {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.lang {
+  /* margin: 50px; */
+  position: sticky;
+  margin-top: -10%;
+  /* margin-bottom: 10%; */
+}
+
+.heading {
+  font-size: 45px;
+  margin-left: 41rem;
+  margin-top: 8rem;
+  /* margin-bottom: 1rem; */
 }

@@ -38,22 +38,21 @@
 
 .container_1 {
   display: flex;
-  /* padding-top: 3rem; */
-  /* margin-top: 3rem; */
   width: 100%;
   height: 100vh;
   background-color: rgb(48, 47, 47);
 }
 
 .image_container_1 {
-  width: 70rem;
-
+  margin-top: 2.5rem;
+  width: 35rem;
   margin-right: 5rem;
-  height: 45rem;
+  margin-left: 3rem;
+  height: 40rem;
 }
 
 .image_container_1 img {
-  /* border-radius: 50%; */
+  border-radius: 50%;
 }
 
 .image_container_1 img {
@@ -62,8 +61,9 @@
 }
 
 .text_container_1 {
-  margin-top: 8rem;
+  margin-top: 4rem;
   margin-left: 4rem;
+  width: 50rem;
 }
 
 .text_container_1 h3,
