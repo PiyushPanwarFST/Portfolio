@@ -57,7 +57,7 @@ const Home = () => {
           <button className={styles.btn_1}>Download cv</button>
         </div>
         <div className={styles.image_container_1}>
-          <img src="/public/WhatsApp Image 2024-02-02 at 22.20.15.jpeg" />
+          <img src="/WhatsApp Image 2024-02-02 at 22.20.15.jpeg" />
         </div>
       </section>
     </>
