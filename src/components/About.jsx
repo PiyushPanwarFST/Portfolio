@@ -7,7 +7,7 @@ function About() {
       <section className={styles.container_2} id="about">
         <div className={styles.resumeImg}>
           <img
-            src="/public/images/Screenshot 2024-04-07 at 12.57.20 AM.png"
+            src="/images/Screenshot 2024-04-07 at 12.57.20 AM.png"
             alt=""
             className={styles.image_container_2}
           />
