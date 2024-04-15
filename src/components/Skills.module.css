@@ -1,9 +1,15 @@
-.skill {
+/* .skills {
   width: 160px;
   height: 160px;
   position: relative;
-}
+  padding-bottom: 12rem;
 
+} */
+
+.container_3{
+  background-image: url("/public/5075841.jpg");
+  background-size: 100% 100%;
+}
 .outer {
   width: 160px;
   height: 160px;
@@ -75,6 +81,12 @@ tr {
 .heading {
   font-size: 45px;
   margin-left: 41rem;
-  margin-top: 8rem;
+  padding-top: 2rem;
+  /* margin-top: 0rem; */
+
   /* margin-bottom: 1rem; */
+}
+
+.item{
+  padding-bottom: 2rem;
 }

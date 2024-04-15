@@ -1,15 +1,18 @@
 .container_5 {
-  display: flex;
+  background-image: url("/public/5166950.jpg");
+  background-size: 100% 100%;
 }
 .cont1 img {
   width: 45vw;
 }
 
+.containers {
+  display: flex;
+}
+
 .heading {
   font-size: 45px;
-  margin-left: 41rem;
-  margin-top: 6rem;
-  /* margin-bottom: 5rem; */
+  margin-left: 41rem; 
 }
 
 .inputBox_1 {

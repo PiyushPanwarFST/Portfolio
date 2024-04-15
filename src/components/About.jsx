@@ -25,7 +25,7 @@ function About() {
             About <span style={{ color: "aqua" }}>Me</span>
           </h1>
           <h3>
-            Hi there, welcome to my website! I'm Cristian, a passionate web
+            Hi there, welcome to my website! I'm Hindu, a passionate web
             developer who enjoys learning new technologies and solving problems
             with code!
           </h3>

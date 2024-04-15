@@ -4,10 +4,11 @@ import styles from "./Contact.module.css";
 function Contact() {
   return (
     <>
-      <h1 className={styles.heading}>
-        Get In<span style={{ color: "aqua" }}> Touch</span>
-      </h1>
       <section className={styles.container_5} id="contact">
+        <h1 className={styles.heading}>
+          Get In<span style={{ color: "aqua" }}> Touch</span>
+        </h1>
+        <div className={styles.containers}>
         <div className={styles.cont1}>
           <img
             src="https://cdni.iconscout.com/illustration/premium/thumb/customer-care-3483602-2912019.png?f=webp"
@@ -35,6 +36,8 @@ function Contact() {
             <button type="submit">Send</button>
           </form>
         </div>
+        </div>
+        
       </section>
     </>
   );

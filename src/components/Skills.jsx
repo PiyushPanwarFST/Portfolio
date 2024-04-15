@@ -19,7 +19,8 @@ function Skills() {
   }, 1000);
 
   return (
-    <div onMouseEnter={forceUpdate}>
+    <section className={styles.container_3} id="skills">
+      <div onMouseEnter={forceUpdate}>
       <h1 className={styles.heading}>
         My<span style={{ color: "aqua" }}> Skills</span>
       </h1>
@@ -88,6 +89,8 @@ function Skills() {
         </div>
       </div>
     </div>
+    </section>
+    
   );
 }
 
